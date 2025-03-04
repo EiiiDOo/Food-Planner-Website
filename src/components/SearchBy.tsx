@@ -24,7 +24,7 @@ export default async function SearchBy({
   }
 
   return (
-    <div className=" flex flex-wrap justify-center items-center">
+    <div className=" flex flex-wrap min-h-screen">
       {list.length ? (
         list.map((el: MealData) => (
           <MainMealCard key={el.idMeal} meal={el} fullMeal={false} />
