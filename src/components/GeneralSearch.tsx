@@ -29,7 +29,7 @@ export default function GeneralSearch() {
       <div className="flex flex-wrap min-h-screen ">
         {meals && meals.length > 0 ? (
           meals.map((el, ind) => {
-            return <MainMealCard key={ind} meal={el} />;
+            return <MainMealCard key={ind} meal={el} fullMeal={false} />;
           })
         ) : (
           <h1 className="text-2xl font-bold absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 ">
