@@ -4,9 +4,7 @@ import React from "react";
 import { MealData } from "@/meal-links";
 import Image from "next/image";
 import Link from "next/link";
-import { UserAuth } from "../context/AuthContext";
 import { X_ICON } from "@/svg_icons";
-import { useRouter } from "next/navigation";
 
 export default function UserMealCard({
   meal,
