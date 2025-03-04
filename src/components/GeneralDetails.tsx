@@ -111,9 +111,8 @@ export default function GeneralDetails({ id }: { id: string }) {
   } else {
     return (
       <div className="min-h-screen w-full flex items-center justify-center relative">
-        <h1 className=" absolute top-1/2 right-1/2 translate-x-1/2 translate-y-1/2 text-3xl">
-          Loading . . .
-        </h1>
+        <span className="loading  loading-bars absolute top-1/2 right-1/2 translate-x-1/2 translate-y-1/2 "></span>
+
         {/* <span className="loading  loading-bars absolute top-1/2 right-1/2 translate-x-1/2 translate-y-1/2 "></span> */}
       </div>
     );
