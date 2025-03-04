@@ -36,7 +36,7 @@ export default function Details({ id }: { id: string }) {
       setMeal(mealResponse.meals[0]);
     }
     getMeal();
-  }, []);
+  }, [id]);
   useEffect(() => {
     async function checkMeal(
       userId: string,
