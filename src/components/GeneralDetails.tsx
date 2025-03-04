@@ -20,7 +20,7 @@ export default function GeneralDetails({ id }: { id: string }) {
       setMeal(mealResponse.meals[0]);
     }
     getMeal();
-  }, []);
+  }, [id]);
 
   if (meal) {
     const ingredients = getIngredientAttributes(meal);
